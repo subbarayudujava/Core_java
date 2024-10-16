@@ -1,0 +1,17 @@
+package com.nt;
+
+import java.util.Scanner;
+
+public class DemoArrays {
+
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter the integer values holding the Arrays Objects ");
+		int sc = s.nextInt();
+		Integer a[] = new Integer[sc];
+          for(int i=0;i<sc;i++) {
+        	  
+          }
+	}// main
+
+}// class

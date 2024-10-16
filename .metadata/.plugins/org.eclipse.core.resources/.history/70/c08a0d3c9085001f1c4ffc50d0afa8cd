@@ -1,0 +1,13 @@
+package com.nt;
+
+import java.util.Scanner;
+
+public class DemoSum {
+
+	public static void main(String[] args) {
+		Scanner S=new Scanner(System.in);
+		
+
+	}
+
+}

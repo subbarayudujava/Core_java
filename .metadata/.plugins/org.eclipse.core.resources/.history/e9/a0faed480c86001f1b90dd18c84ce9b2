@@ -1,0 +1,24 @@
+package com.nt;
+
+import java.util.Scanner;
+
+public class DemoString {
+
+	public static void main(String[] args) {
+
+		Scanner s = new Scanner(System.in);
+		System.out.println("Enter the String Objects To add arrays");
+		int n = s.nextInt();
+		String a[]=new String[n];
+		System.out.println("Enter the :"+n+":objects");
+		for(int i=0;i<n;i++) {
+			a[i]=new String(s.nextLine());
+		}
+		System.out.println();
+		for(Integer k:a) {
+			System.out.println(k.toString()+" ");
+		}
+
+	}
+
+}
